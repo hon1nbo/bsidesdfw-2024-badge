@@ -3888,8 +3888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 116.84 102.87 0)
+		(property "Value" "+6V"
+			(at 120.65 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,12 +5468,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 205.74 95.25 0)
+		(property "Value" "+6V"
+			(at 208.28 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5534,12 +5535,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 152.4 80.01 0)
+		(property "Value" "+6V"
+			(at 154.94 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5670,12 +5672,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 72.39 99.06 0)
+		(property "Value" "+6V"
+			(at 74.93 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
