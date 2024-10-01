@@ -32,13 +32,13 @@
  (layer "F.Fab")(uuid "96088f95-0400-4575-b02b-4785a3c9ad80")
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "1" thru_hole circle (at 0 -5) (size 2.4 2.4) (drill 1.4) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
-
-(uuid "aeeab89d-4057-4d70-b1f5-1dab72d4f0df")
-  )
-  (pad "2" thru_hole circle (at -2.5 5) (size 2.4 2.4) (drill 1.4) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+  (pad "1" thru_hole circle (at -2.5 5) (size 2.4 2.4) (drill 1.4) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
 
 (uuid "8e2827e1-9c88-4029-9d47-f9393942ec62")
+  )
+  (pad "2" thru_hole circle (at 0 -5) (size 2.4 2.4) (drill 1.4) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "aeeab89d-4057-4d70-b1f5-1dab72d4f0df")
   )
   (pad "3" thru_hole circle (at 2.5 5) (size 2.4 2.4) (drill 1.4) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
 
