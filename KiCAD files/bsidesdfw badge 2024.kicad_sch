@@ -1897,6 +1897,12 @@
 		(uuid "8d52a188-6565-4dfc-8ff5-cb6b359fa90a")
 	)
 	(junction
+		(at 236.22 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abbf044b-372e-47c2-8979-13637d56ac65")
+	)
+	(junction
 		(at 119.38 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1955,12 +1961,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9133cca-7c8f-4000-a984-dfeb11769384")
-	)
-	(junction
-		(at 236.22 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c98b4753-e207-4fde-82a9-add2434b7ec7")
 	)
 	(junction
 		(at 195.58 109.22)
@@ -2103,6 +2103,16 @@
 			(type default)
 		)
 		(uuid "14f9f0d9-21c0-4372-94db-5d8004537f09")
+	)
+	(wire
+		(pts
+			(xy 236.22 127) (xy 236.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156f79e7-9bb3-4c48-825c-0b0547801168")
 	)
 	(wire
 		(pts
@@ -2393,6 +2403,16 @@
 			(type default)
 		)
 		(uuid "4b05a1cb-9a0c-4382-a0fd-f3f26a030d47")
+	)
+	(wire
+		(pts
+			(xy 236.22 130.81) (xy 237.49 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be32c25-99c1-46bd-85d0-614a2c73c8d4")
 	)
 	(wire
 		(pts
@@ -2936,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 116.84) (xy 236.22 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd94c864-a59d-4f1b-8f9e-8c875c56532f")
-	)
-	(wire
-		(pts
 			(xy 173.99 73.66) (xy 247.65 73.66)
 		)
 		(stroke
@@ -3063,6 +3073,16 @@
 			(type default)
 		)
 		(uuid "e611b202-eed4-4c79-b90e-4d8029852182")
+	)
+	(wire
+		(pts
+			(xy 236.22 116.84) (xy 236.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87f1730-332b-4997-8a08-3e620b2f0f95")
 	)
 	(wire
 		(pts
@@ -3256,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 120.65) (xy 255.27 66.04)
+			(xy 255.27 130.81) (xy 255.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3266,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 120.65) (xy 255.27 120.65)
+			(xy 245.11 130.81) (xy 255.27 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3511,7 +3531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cb6e526-badc-4780-912a-4995123f12c9")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 212.09 97.79 90)
 			(effects
 				(font
@@ -3519,7 +3539,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "68 Ohm"
 			(at 212.09 100.33 90)
 			(effects
 				(font
@@ -3563,7 +3583,7 @@
 		(instances
 			(project ""
 				(path "/b322d770-db2f-42fe-b67c-63c256de8558"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3634,6 +3654,76 @@
 			(project ""
 				(path "/b322d770-db2f-42fe-b67c-63c256de8558"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 236.22 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205ad60e-5e61-4f6f-9238-9d30a0d965e1")
+		(property "Reference" "R7"
+			(at 238.76 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68 Ohm"
+			(at 238.76 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.442 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "749459f3-aee7-40f4-bee4-3bf8068d0809")
+		)
+		(pin "2"
+			(uuid "c94f58b3-2352-4def-b445-6b84ae2d3738")
+		)
+		(instances
+			(project "bsidesdfw badge 2024"
+				(path "/b322d770-db2f-42fe-b67c-63c256de8558"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4667,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 240.03 120.65 180)
+		(at 241.3 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4586,7 +4676,7 @@
 		(fields_autoplaced yes)
 		(uuid "990eb4c8-abac-4730-8646-a3afe7350621")
 		(property "Reference" "D32"
-			(at 241.6176 123.19 90)
+			(at 242.8876 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4686,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 241.6175 123.19 0)
+			(at 242.8875 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 120.65 0)
+			(at 241.3 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 120.65 0)
+			(at 241.3 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4712,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 240.03 120.65 0)
+			(at 241.3 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
