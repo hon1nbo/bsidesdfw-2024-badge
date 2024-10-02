@@ -11964,39 +11964,6 @@
 		(layer "Edge.Cuts")
 		(uuid "df853565-19f2-4f3c-a63b-5cee92e7dce9")
 	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "f74fe61b-a503-41c3-9b5d-cb7e6adae39a")
-		(pts
-			(xy 78.709967 96.5) (xy 196.090033 96.5)
-		)
-		(height -44.7)
-		(gr_text "117.3801 mm"
-			(at 137.4 50.65 0)
-			(layer "Edge.Cuts")
-			(uuid "f74fe61b-a503-41c3-9b5d-cb7e6adae39a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
 	(segment
 		(start 172 92.5)
 		(end 173.77 94.27)
