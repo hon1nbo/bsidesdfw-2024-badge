@@ -18,3 +18,7 @@ KiCad is used with the SacSym Library Loader for parts. Models will be in /model
 
 #### Errata
 - One LED (top left) is out of place for the badges issued at BSides due to a shifting error from a trace re-route caused when adjusting a pad size on another component to make an unrelated tab easier to solder. The shift was not caught until after fabrication started, but it has been fixed in the KiCAD files.
+
+
+### Extra Credits
+Thanks [SoberDogs](https://soberdogs.weebly.com/) for the use of the sticker art!
