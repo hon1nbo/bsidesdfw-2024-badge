@@ -1,7 +1,10 @@
 # bsidesdfw-2024-badge
 Badge for [BSidesDFW](https://bsidesdfw.com/) and soldering kit for learners! Whilst some experienced hardware folks may think this repo is overkill for a relatively simple badge, the goal is to enable someone to do a fresh start with hardware both in assembly and simple design to try out with KiCAD. Some explanations on choices made are also included to help someone getting started understand why we did things a certain way.
 
-#### Badge
+## Assembly
+To skip to assembly guidance, we have provided [Instructions](/INSTRUCTIONS.md).
+
+### Badge
 If you wanna see the badge in action, there's a GIF of it here (flashing lights warning): [Badge GIF](/images/led-chase.gif)
 
 ### Contributors
@@ -10,10 +13,7 @@ We're all volunteers doing this in spare time; thanks to those that helped out
 - BearsInPorts - PCB silkscreen art
 - hon1nbo - circuit design, PCB Layout
 
-## Assembly
-To skip to assembly guidance, we have provided [Instructions](/INSTRUCTIONS.md).
-
-## Basic Operation
+## Theory of Operation
 The theory of operation for this circuit is very simple, as it's primarily intended for learning and practicing soldering. A 555 timer creates a clock signal, adjustable using a trim resistor, which feeds into the serial and clock inputs of a 74hc595 shift register. This shift register takes the serial signal and outputs a set of parallel signals to the LEDs. However, we're not really using serial data but just shifting the on/off position to the next LED in the sequence. As a note, we're using the 74xxx shift register as a Sink for the LED power so this requires a tri-state compatible variant which is available for most of the 74xxxxx series.
 
 ## EDA
