@@ -17,7 +17,7 @@ The theory of operation for this circuit is very simple, as it's primarily inten
 
 
 ### Software
-[KiCAD](https://www.kicad.org/) is an open-source EDA tool for PCB and Schematic design. We highly recommend it to anyone getting started with hardware design. We used the SacSym Library Loader for parts to get usable footprints for all components. [Models](/Models) are included in this repo since not every KiCAD installation uses this software default, as well as the extra silkscreen artwork located under [Art](/art). General KiCAD files are located in [KiCAD files](/KiCAD%20files), and for fabrication we have included the [Gerbers](/gerbers).
+[KiCAD](https://www.kicad.org/) is an open-source EDA tool for PCB and Schematic design. We highly recommend it to anyone getting started with hardware design. We used the SacSym Library Loader for parts to get usable footprints for all components. [Models](/models) are included in this repo since not every KiCAD installation uses this software default, as well as the extra silkscreen artwork located under [Art](/art). General KiCAD files are located in [KiCAD files](/KiCAD%20files), and for fabrication we have included the [Gerbers](/gerbers).
 ### BOM
 Parts were kept simplistic
 
