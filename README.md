@@ -1,6 +1,9 @@
 # bsidesdfw-2024-badge
 Badge for [BSidesDFW](https://bsidesdfw.com/) and soldering kit for learners! Whilst some experienced hardware folks may think this repo is overkill for a relatively simple badge, the goal is to enable someone to do a fresh start with hardware both in assembly and simple design to try out with KiCAD. Some explanations on choices made are also included to help someone getting started understand why we did things a certain way.
 
+#### Badge
+If you wanna see the badge in action, there's a GIF of it here (flashing lights warning): [Badge GIF](/images/led-chase.gif)
+
 ### Contributors
 We're all volunteers doing this in spare time; thanks to those that helped out
 - ibi5 - concept & artwork
@@ -15,13 +18,11 @@ The theory of operation for this circuit is very simple, as it's primarily inten
 
 ## EDA
 
+### Schematic
+![Schematic showing a 555 clock circuit feeding a 74xxxxx series shift register into an LED matrix](/images/Schematic.svg)
 
 ### Software
 [KiCAD](https://www.kicad.org/) is an open-source EDA tool for PCB and Schematic design. We highly recommend it to anyone getting started with hardware design. We used the SacSym Library Loader for parts to get usable footprints for all components. [Models](/models) are included in this repo since not every KiCAD installation uses this software default, as well as the extra silkscreen artwork located under [Art](/art). General KiCAD files are located in [KiCAD files](/KiCAD%20files), and for fabrication we have included the [Gerbers](/gerbers).
-### BOM
-Parts were kept simplistic
-
-TKTK BOM
 
 ### Design Choices
 
@@ -38,6 +39,7 @@ AKA: Screw Ups and weird stuff
 
 - One LED (top left front side) is out of place for the badges issued at BSides due to a shifting error from a trace re-route caused when adjusting a pad size on another component to make an unrelated tab easier to solder. The shift was not caught until after fabrication started, but it has been fixed in the KiCAD files.
 - Silkscreen for LEDs is on the back. This saves the headache of multi-colour silkscreen or removing the aesthetic of the front design. We wanted to keep the dots so when unassembled it still keeps the design. The LED orientation is not affected by the silkscreen change.
+- Schematic shown above still has the old +6V power taps even though the diode drops voltage. This was caught shortly before bsides; I will remove this errata line when I update that schematic after the event.
 
 ## Extra Credits
 Thanks [SoberDogs](https://soberdogs.weebly.com/) for the use of the sticker art!
