@@ -31,7 +31,7 @@ Assemble the badge in the following order. This order ensures that you will have
         
 2. R1, R3, & R4 (Brown/Black/Orange/Gold) \- No Orientation  
 3. BT1 (Battery Holder)  
-   1. ORIENTATION: The \+ on the component should be on the same side as the \+ on the PCB footprint  
+   1. ORIENTATION: The \+ on the component should be on the same side as the \+ on the PCB footprint (the \+ **tab** itself)
 4. D14 (Diode)  
    1. ORIENTATION: The band on the component should be on the same side as the band on the PCB footprint  
 5. U2 (74H0595) \- This is the 16 pin chip.  
